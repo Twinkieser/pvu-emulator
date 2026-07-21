@@ -1,0 +1,14 @@
+{
+  "name": "pvu-emulator",
+  "version": "1.0.0",
+  "description": "Emulator for a supply-exhaust ventilation unit (PVU) sending telemetry to ThingsBoard over MQTT",
+  "main": "emulator.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node emulator.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mqtt": "^5.7.0"
+  }
+}
